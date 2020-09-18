@@ -16,8 +16,39 @@
     color: white;
     padding: 10px 20px;
     border-radius: 10px;
+    border: none;
 }
 
 .carousel-inner {
     padding: 20px 40px;
+}
+
+.cat1 {
+    background: orange;
+}
+
+.cat2 {
+    background: orchid;
+}
+
+.cat3 {
+    background: blue;
+}
+
+.cat1,
+.cat2,
+.cat3 {
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: white;
+}
+
+#catagorys img {
+    width: 40%;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 7px 7px 10px lightblue;
 }
